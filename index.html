@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Vijay Electronics: Best CCTV Camera Shop in Unnao. Expert CCTV installation, LED Smart TV repair, and Refurbished Laptops. Call 8090090051 for top-rated service.">
+    <!-- Local SEO Title Pattern -->
+    <title>Best CCTV Camera Shop in Unnao | CCTV Camera Service Unnao | Vijay Electronics</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://vijayelectronic.github.io/CCTV-camera-Shop-unnao-/">
+
+    <!-- JSON-LD LocalBusiness Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ElectronicsStore",
+      "name": "Vijay Electronics",
+      "image": "assets/vijay electronics img.png",
+      "@id": "",
+      "url": "https://vijayelectronic.github.io/CCTV-camera-Shop-unnao-/",
+      "telephone": "+91 8090090051",
+      "email": "vijayelectronic689@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Purani Bazar",
+        "addressLocality": "Unnao",
+        "addressRegion": "Uttar Pradesh",
+        "postalCode": "209801",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 26.5393,
+        "longitude": 80.4878
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "09:00",
+        "closes": "21:00"
+      },
+      "sameAs": [
+        "https://www.instagram.com/vijayelectronics1",
+        "https://www.facebook.com/Vijay-Chaurasiya",
+        "https://www.youtube.com/@vijayelectronics-v6e"
+      ] 
+    }
+    </script>
+    <style>
+        /* Hero Section Specific Styles */
+        .hero {
+            display: flex;
+            flex-direction: column;
+            background-color: var(--primary-color);
+            color: var(--text-light);
+        }
+
+        .hero-video-container {
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            /* Maintain standard video aspect ratio */
+            max-height: 80vh;
+            /* Don't exceed most of the screen */
+            position: relative;
+            overflow: hidden;
+            background-color: #000;
+        }
+
+        .hero-video-bg {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .hero-content-wrapper {
+            background: linear-gradient(135deg, var(--primary-color) 0%, rgba(0, 51, 102, 0.95) 100%);
+            padding: 60px 0;
+            position: relative;
+            z-index: 2;
+            /* To sit above any unwanted overlaps */
+            box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.2);
+            /* subtle separator */
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            text-align: center;
+            /* Center align for the new layout */
+        }
+
+        .hero h1 {
+            color: var(--text-light);
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .hero h1 span {
+            color: var(--secondary-color);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            font-weight: 300;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+            /* Center align buttons */
+        }
+
+        /* Services Grid Section */
+        .services-section {
+            background-color: var(--bg-light);
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .service-card {
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            transition: var(--transition);
+            border: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0, 51, 102, 0.1);
+        }
+
+        .service-card .card-media {
+            height: 200px;
+            overflow: hidden;
+            background-color: #eee;
+            position: relative;
+        }
+
+        .service-card img,
+        .service-card video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .service-card:hover img {
+            transform: scale(1.05);
+        }
+
+        .service-info {
+            padding: 25px;
+        }
+
+        .service-info h3 {
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+        }
+
+        .service-info p {
+            color: #666;
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+        }
+
+        /* Why Choose Us & Trust Indicators */
+        .trust-section {
+            background-color: var(--primary-color);
+            color: var(--text-light);
+            text-align: center;
+        }
+
+        .trust-section h2 {
+            color: var(--secondary-color);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .stat-item {
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+        }
+
+        .stat-item i {
+            font-size: 2.5rem;
+            color: var(--secondary-color);
+            margin-bottom: 15px;
+        }
+
+        .stat-item h3 {
+            color: var(--text-light);
+            font-size: 2rem;
+            margin-bottom: 5px;
+        }
+
+        /* SEO Dumping Block */
+        .seo-block {
+            background-color: #f0f4f8;
+            padding: 40px 20px;
+            font-size: 0.8rem;
+            color: #777;
+            border-top: 1px solid #ddd;
+        }
+
+        .seo-block h5 {
+            color: var(--text-dark);
+            font-family: var(--font-body);
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+
+        .seo-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            opacity: 0.8;
+            line-height: 1.4;
+        }
+
+        .seo-content span {
+            display: inline-block;
+        }
+
+        .seo-content span::after {
+            content: " • ";
+            color: #ccc;
+        }
+
+        .seo-content span:last-child::after {
+            content: "";
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Dynamic Header -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/vijay electronics img.png" alt="Vijay Electronics Logo">
+                <span style="display: none;">Vijay Electronics</span> <!-- For SEO without text -->
+            </a>
+            <nav>
+                <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="cctv.html">CCTV & Smart Bell</a></li>
+                    <li><a href="laptop-desktop.html">Laptops/Desktops</a></li>
+                    <li><a href="tv-repair.html">TV Repair</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-video-container">
+            <video autoplay muted loop playsinline class="hero-video-bg">
+                <source src="assets/hero video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="hero-content-wrapper">
+            <div class="container hero-content">
+                <h1>Best CCTV Camera Shop in <span>Unnao</span></h1>
+                <p><strong>Vijay Electronics</strong> is your trusted local expert for <strong>CCTV Installation
+                        Services Unnao</strong>, Smart School Bells, LED TV Repair, and Refurbished Laptops. Over 5
+                    years of trusted service in Purani Bazar.</p>
+                <div class="hero-buttons">
+                    <a href="tel:8090090051" class="btn btn-secondary"><i class="fas fa-phone"></i> Call 8090090051</a>
+                    <a href="contact.html" class="btn btn-primary"><i class="fas fa-map-marker-alt"></i> Find Our
+                        Shop</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Services -->
+    <section class="section-padding services-section">
+        <div class="container">
+            <div class="text-center">
+                <h2>Our Premium Services</h2>
+                <p>Top-rated <strong>CCTV Camera Service Unnao</strong> and electronics repair solutions.</p>
+            </div>
+
+            <div class="grid-3">
+                <!-- CCTV Card -->
+                <div class="service-card">
+                    <div class="card-media">
+                        <video autoplay muted loop playsinline>
+                            <source src="assets/cctv left video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="service-info">
+                        <h3>CCTV Installation Services</h3>
+                        <p>We provide the <strong>best CCTV camera installing in Unnao</strong>. Authorized <strong>CP
+                                Plus Camera Shop Unnao</strong> and Hikvision dealers for home, shop, and office
+                            security setups.</p>
+                        <a href="cctv.html" class="btn btn-primary" style="padding: 8px 15px; font-size:0.9rem;">View
+                            CCTV Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Smart Bell Card -->
+                <div class="service-card">
+                    <div class="card-media">
+                        <img src="assets/school voice bell.png" alt="Smart School Voice Bell System">
+                    </div>
+                    <div class="service-info">
+                        <h3>Smart School Voice Bells</h3>
+                        <p>Automate your school schedule with our AI voice announcement school bell system. Reliable
+                            timing and crystal-clear announcements. Installation and repair available.</p>
+                        <a href="cctv.html" class="btn btn-primary" style="padding: 8px 15px; font-size:0.9rem;">Explore
+                            Bells <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Laptop/Desktop Card -->
+                <div class="service-card">
+                    <div class="card-media"
+                        style="background: url('https://images.unsplash.com/photo-1593642702821-c823b13eb295?q=80&w=600&auto=format&fit=crop') center/cover;">
+                        <!-- Placeholder/Stock image as asset missing -->
+                    </div>
+                    <div class="service-info">
+                        <h3>Laptops & Desktops</h3>
+                        <p>Buy premium refurbished laptops (Dell, HP) or get expert desktop/hard-disk repair at the best
+                            computer repair shop in Unnao.</p>
+                        <a href="laptop-desktop.html" class="btn btn-primary"
+                            style="padding: 8px 15px; font-size:0.9rem;">View Laptops <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- LED TV Repair -->
+                <div class="service-card">
+                    <div class="card-media"
+                        style="background: url('https://images.unsplash.com/photo-1593784991095-a205069470b6?q=80&w=600&auto=format&fit=crop') center/cover;">
+                        <!-- Placeholder/Stock image -->
+                    </div>
+                    <div class="service-info">
+                        <h3>LED Smart TV Repair</h3>
+                        <p>Expert <strong>LED TV repair Unnao</strong> including smart TV panel repair and motherboard
+                            fix. Fast, reliable, and affordable service.</p>
+                        <a href="tv-repair.html" class="btn btn-primary" style="padding: 8px 15px; font-size:0.9rem;">TV
+                            Repair Services <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Local Impact & Trust -->
+    <section class="section-padding trust-section">
+        <div class="container container-sm">
+            <h2>Why Choose Vijay Electronics?</h2>
+            <p>We are the <strong>top rated cctv camera shop near me</strong> in Unnao district, providing unparalleled
+                support and quality components.</p>
+
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <i class="fas fa-shield-check"></i>
+                    <h3>5+</h3>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-users"></i>
+                    <h3>1000+</h3>
+                    <p>Happy Customers</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3>Unnao</h3>
+                    <p>Local Experts</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-tools"></i>
+                    <h3>24/7</h3>
+                    <p>Support Available</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed SEO Area Block -->
+    <section class="seo-block">
+        <div class="container">
+            <h5>Areas We Serve & Services Offered</h5>
+            <div class="seo-content">
+                <span>CCTV camera in Unnao</span>
+                <span>CCTV installation Unnao</span>
+                <span>CCTV repair Unnao</span>
+                <span>LED TV repair Unnao</span>
+                <span>Laptop repair Unnao</span>
+                <span>Desktop repair Unnao</span>
+                <span>Security camera shop near me</span>
+                <span>CCTV camera price in Unnao</span>
+                <span>WiFi camera installation Unnao</span>
+                <span>IP camera dealer Unnao</span>
+                <span>Computer repair shop Unnao</span>
+                <span>Old laptop sale in Unnao</span>
+                <span>Second hand laptop Unnao</span>
+                <span>CP Plus Unnao</span>
+                <span>Hikvision Unnao</span>
+                <span>CCTV Dealers in Unnao</span>
+                <span>CCTV Dealers CP Plus</span>
+                <span>CCTV Dealers Hikvision</span>
+                <span>cp plus camera price</span>
+                <span>cp plus bullet camera price</span>
+                <span>cp plus dome camera price</span>
+                <span>Hikvision CCTV installation Unnao</span>
+                <span>New CCTV camera setup Unnao</span>
+                <span>Security camera installation Unnao</span>
+                <span>CCTV AMC service Unnao</span>
+                <span>DVR NVR repair Unnao</span>
+                <span>WiFi CCTV installation Unnao</span>
+                <span>CCTV maintenance Unnao</span>
+                <span>Home CCTV installation</span>
+                <span>Shop CCTV installation</span>
+                <span>Office CCTV installation</span>
+                <span>best solar cctv camera shop near me</span>
+                <span>automatic school bell unnao</span>
+                <span>school bell system repair</span>
+                <span>ai voice announcement school bell</span>
+                <span>smart tv panel repair unnao</span>
+                <span>motherboard repair unnao</span>
+                <span>hard disk repair unnao</span>
+                <span>refurbished laptop store unnao</span>
+                <span>dell refurbished laptop unnao</span>
+                <span>hp second hand laptop unnao</span>
+                <span>CCTV installation Bangarmau</span>
+                <span>CCTV camera repair Bangarmau</span>
+                <span>CCTV installation Safipur</span>
+                <span>CCTV camera repair Safipur</span>
+                <span>CCTV installation Nawabganj Unnao</span>
+                <span>CCTV camera repair Nawabganj Unnao</span>
+                <span>CCTV installation Kanpur</span>
+                <span>CCTV camera repair Kanpur</span>
+                <span>CCTV installation Lucknow</span>
+                <span>CCTV camera repair Lucknow</span>
+                <span>CCTV installation Raebareli</span>
+                <span>CCTV camera repair Raebareli</span>
+                <span>DVR/NVR installation</span>
+                <span>IP camera setup</span>
+                <span>Wi‑Fi camera installation</span>
+                <span>CCTV wiring & cabling</span>
+                <span>Camera relocation / shifting</span>
+                <span>Electronics service Lucknow</span>
+                <span>Stabilizer repair Unnao</span>
+                <span>Mobile repair Unnao</span>
+                <span>Home electronics service Unnao</span>
+                <span>cctv installation for school</span>
+                <span>cctv installation for home</span>
+                <span>cctv installation for home kanpur</span>
+                <span>cctv installation for home cost</span>
+                <span>cctv installation for business</span>
+                <span>cctv installation for office</span>
+                <span>cctv installation for shop</span>
+                <span>cctv installation for hdb</span>
+                <span>camera shop unnao</span>
+                <span>cctv camera shop near unnao uttar pradesh</span>
+                <span>camera+shop+near+me</span>
+                <span>camera shop open near me</span>
+                <span>camera shop location</span>
+                <span>best cctv camera for shop</span>
+                <span>Best-CCTV-Shop unnao</span>
+                <span>Unnao cctv camera service near me unnao contact number</span>
+                <span>CCTV camera installation in Unnao</span>
+                <span>CCTV installation near me</span>
+                <span>CCTV camera repair in Unnao</span>
+                <span>Dahua CCTV installation in Unnao</span>
+                <span>CCTV price in Unnao</span>
+                <span>Unnao cctv camera shop service near me</span>
+                <span>DVR/NVR setup in Unnao</span>
+                <span>Electronics repair in Unnao</span>
+                <span>Inverter repair in Unnao</span>
+                <span>Stabilizer repair in Unnao</span>
+                <span>CCTV AMC / annual maintenance</span>
+                <span>CCTV repair Kanpur</span>
+                <span>Inverter repair near me</span>
+                <span>CCTV installation in [city]</span>
+                <span>CCTV service center Unnao</span>
+                <span>DVR repair Unnao</span>
+                <span>NVR repair Unnao</span>
+                <span>CCTV system setup Bangarmau</span>
+                <span>DVR/NVR repair Bangarmau</span>
+                <span>Electronics repair Bangarmau</span>
+                <span>Inverter repair Bangarmau</span>
+                <span>Stabilizer repair Bangarmau</span>
+                <span>Home service Bangarmau</span>
+                <span>Camera installation Bangarmau</span>
+                <span>CCTV service Safipur</span>
+                <span>Electronics repair Safipur</span>
+                <span>Inverter repair Safipur</span>
+                <span>Surveillance camera Safipur</span>
+                <span>Security system Safipur</span>
+                <span>Same-day repair Safipur</span>
+                <span>CCTV camera repair Nawabganj</span>
+                <span>CCTV system Nawabganj</span>
+                <span>Electronics repair Nawabganj</span>
+                <span>Home service Nawabganj</span>
+                <span>Affordable repair Nawabganj</span>
+                <span>Quick repair service Nawabganj</span>
+                <span>CCTV service center Kanpur</span>
+                <span>DVR repair Kanpur</span>
+                <span>NVR repair Kanpur</span>
+                <span>Electronics repair Kanpur</span>
+                <span>Inverter repair Kanpur</span>
+                <span>LED TV repair Kanpur</span>
+                <span>Professional CCTV service Kanpur</span>
+                <span>CCTV service Lucknow</span>
+                <span>CCTV maintenance Lucknow</span>
+                <span>Professional surveillance Lucknow</span>
+                <span>Electronics repair Lucknow</span>
+                <span>Home security Lucknow</span>
+                <span>IP camera installation Lucknow</span>
+                <span>CCTV system Raebareli</span>
+                <span>Electronics service Raebareli</span>
+                <span>Inverter repair Raebareli</span>
+                <span>Home service Raebareli</span>
+                <span>CCTV system installation</span>
+                <span>Surveillance camera setup</span>
+                <span>Wireless camera installation</span>
+                <span>Professional CCTV setup</span>
+                <span>CCTV repair service</span>
+                <span>Camera troubleshooting</span>
+                <span>CCTV system repair</span>
+                <span>Remote viewing setup</span>
+                <span>CCTV footage recovery</span>
+                <span>Power supply repair (CCTV)</span>
+                <span>Cable replacement</span>
+                <span>Electronics repair</span>
+                <span>Electronics service center</span>
+                <span>LCD TV repair</span>
+                <span>Power supply repair</span>
+                <span>Speaker repair</span>
+                <span>Home appliance repair</span>
+                <span>Urgent repair</span>
+                <span>Same-day repair</span>
+                <span>Affordable repair</span>
+                <span>Professional repair</span>
+                <span>Expert technician</span>
+                <span>Trusted service</span>
+                <span>Fast service</span>
+                <span>Home service / doorstep service</span>
+                <span>24/7 emergency service</span>
+                <!-- Smart School Bell Dedicated Keywords -->
+                <span>Top Automatic School Bell Manufacturers in Unnao</span>
+                <span>Top Automatic School Bell suppliyer unnao</span>
+                <span>School Bell Dealers in Unnao</span>
+                <span>school mp3 bell unnao shop</span>
+                <span>MP3 School Bell, Schools at ₹ 12400/piece in unnao</span>
+                <span>best Automatic School Bell in Unnao.</span>
+                <span>Buy SCHOOL BELL FULLY AUTOMATIC in Unnao</span>
+                <span>automatic school bell system</span>
+                <span>digital school bell machine</span>
+                <span>voice school bell system</span>
+                <span>wireless school bell system</span>
+                <span>school bell timer controller</span>
+                <span>school bell sound system</span>
+                <span>school bell sound system price</span>
+                <span>school bell amplifier circuit</span>
+                <span>school bell timer in India</span>
+                <span>school bell system for schools</span>
+                <span>school bell system in Kanpur</span>
+                <span>school bell system in Unnao</span>
+                <span>automatic school bell installer in Kanpur</span>
+                <span>automatic school bell supplier in Uttar Pradesh</span>
+                <span>school bell system price in India</span>
+                <span>school bell system for government school</span>
+                <span>school bell system installation service</span>
+                <span>school bell system</span>
+                <span>automatic school bell</span>
+                <span>school bell system price</span>
+                <span>digital school bell</span>
+                <span>smart school bell</span>
+                <span>electronic school bell</span>
+                <span>school bell timer</span>
+                <span>programmable school bell</span>
+                <span>school voice bell</span>
+                <span>school bell machine</span>
+                <span>automatic school bell price in India</span>
+                <span>digital school bell price</span>
+                <span>school bell system installation</span>
+                <span>buy school bell online</span>
+                <span>school bell supplier near me</span>
+                <span>smart school bell for schools</span>
+                <span>best school bell system 2024</span>
+                <span>school voice announcement system</span>
+                <span>electronic bell for schools price</span>
+                <span>smart school automation system</span>
+                <span>IoT school bell system</span>
+                <span>school automation solutions</span>
+                <span>digital timetable bell system</span>
+                <span>voice enabled school bell</span>
+                <span>smart classroom bell system</span>
+                <span>automated school management system</span>
+                <span>wireless school bell system</span>
+                <span>school bell installation in Unnao</span>
+                <span>school bell service near me</span>
+                <span>school bell dealer in Unnao</span>
+                <span>school automation system Unnao</span>
+                <span>smart school bell Kanpur</span>
+                <span>digital school bell Lucknow</span>
+                <span>Uttar Pradesh school bell supplier</span>
+                <span>how to install automatic school bell system</span>
+                <span>benefits of digital school bell in schools</span>
+                <span>automatic school bell with voice announcement</span>
+                <span>best smart school bell for small schools</span>
+                <span>affordable school bell system in India</span>
+                <span>school bell system with amplifier and speaker</span>
+                <span>programmable school bell for timetable</span>
+                <span>which is the best automatic school bell in India</span>
+                <span>what is smart school bell system</span>
+                <span>how does automatic school bell work</span>
+                <span>school bell system price in Uttar Pradesh</span>
+                <span>where to buy school bell near me</span>
+                <span>school bell and CCTV installation</span>
+                <span>smart school security system</span>
+                <span>school automation package with CCTV</span>
+                <span>school voice bell with PA system</span>
+                <span>CCTV and school bell combo package</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Global Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Vijay Electronics</h4>
+                    <p>Your premium local electronics service center in Unnao. Best CCTV Shop in Unnao for complete
+                        security solutions.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/Vijay-Chaurasiya" target="_blank" aria-label="Facebook"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/vijayelectronics1" target="_blank" aria-label="Instagram"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@vijayelectronics-v6e" target="_blank" aria-label="YouTube"><i
+                                class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="cctv.html"><i class="fas fa-angle-right"></i> CCTV Installation</a></li>
+                        <li><a href="laptop-desktop.html"><i class="fas fa-angle-right"></i> Laptop Repair</a></li>
+                        <li><a href="tv-repair.html"><i class="fas fa-angle-right"></i> TV Repair</a></li>
+                        <li><a href="faq.html"><i class="fas fa-angle-right"></i> FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-links" style="color: #ccc;">
+                        <li><i class="fas fa-map-marker-alt"
+                                style="color: var(--secondary-color); margin-right: 10px;"></i> Purani Bazar, Unnao, UP
+                            209801</li>
+                        <li><i class="fas fa-phone" style="color: var(--secondary-color); margin-right: 10px;"></i> +91
+                            8090090051</li>
+                        <li><i class="fas fa-envelope" style="color: var(--secondary-color); margin-right: 10px;"></i>
+                            vijayelectronic689@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Vijay Electronics. All Rights Reserved. Crafted for top local ranking.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sticky Mobile CTA Footer -->
+    <div class="sticky-footer">
+        <a href="tel:+918090090051" class="call-now-btn">
+            <i class="fas fa-phone-alt"></i> Call Now
+        </a>
+        <a href="https://wa.me/918090090051" class="whatsapp-btn" target="_blank">
+            <i class="fab fa-whatsapp"></i> WhatsApp Us
+        </a>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
