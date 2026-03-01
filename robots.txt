@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vijayelectronic.github.io/CCTV-camera-Shop-Unnao/sitemap.xml
