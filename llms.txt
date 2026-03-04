@@ -1,0 +1,38 @@
+# Vijay Electronics Website
+
+> Best CCTV Camera Shop in Unnao | CCTV Camera Service Unnao | Vijay Electronics
+
+Vijay Electronics is a trusted local expert for CCTV Installation Services, Smart School Bells, LED TV Repair, and Refurbished Laptops located in Purani Bazar, Unnao.
+
+## Business Details
+- **Name:** Vijay Electronics
+- **Phone:** +91 8090090051
+- **Email:** vijayelectronic689@gmail.com
+- **Address:** Purani Bazar, Unnao, Uttar Pradesh 209801, India
+- **Opening Hours:** Monday-Saturday, 09:00 - 21:00
+
+## Core Services
+- **CCTV Installation Services:** CP Plus and Hikvision authorized dealers for home, shop, and office setups.
+- **Smart School Voice Bells:** AI voice announcement and automated digital school bell systems.
+- **Laptops & Desktops:** Premium refurbished laptops (Dell, HP) and expert desktop/hard-disk repair.
+- **LED Smart TV Repair:** Smart TV panel, motherboard fix, and fast reliable tech support.
+
+## Key Pages
+- [Home](https://vijayelectronic.github.io/CCTV-camera-Shop-unnao-/)
+- [CCTV & Smart Bell](https://vijayelectronic.github.io/CCTV-camera-Shop-unnao-/cctv.html)
+- [Laptops/Desktops](https://vijayelectronic.github.io/CCTV-camera-Shop-unnao-/laptop-desktop.html)
+- [TV Repair](https://vijayelectronic.github.io/CCTV-camera-Shop-unnao-/tv-repair.html)
+- [About Us](https://vijayelectronic.github.io/CCTV-camera-Shop-unnao-/about.html)
+- [Contact](https://vijayelectronic.github.io/CCTV-camera-Shop-unnao-/contact.html)
+- [FAQ](https://vijayelectronic.github.io/CCTV-camera-Shop-unnao-/faq.html)
+
+## Social Media Links
+- Instagram: https://www.instagram.com/vijayelectronics1
+- Facebook: https://www.facebook.com/Vijay-Chaurasiya
+- YouTube: https://www.youtube.com/@vijayelectronics-v6e
+
+## Areas Served
+Unnao, Bangarmau, Safipur, Nawabganj, Kanpur, Lucknow, Raebareli.
+
+## SEO Note
+This site is built with robust local SEO targeting the Unnao region for electronics and surveillance services. It uses structured Semantic HTML, JSON-LD Schema (LocalBusiness), and hyper-local dumping blocks for high Google map and search ranking.
